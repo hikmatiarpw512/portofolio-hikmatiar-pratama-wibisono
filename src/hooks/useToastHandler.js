@@ -5,7 +5,7 @@ export const useToastHandler = () => {
 
   const showToast = () => {
     toast({
-      title: "🚧 Fitur ini belum diimplementasikan—tapi jangan khawatir! Anda bisa memintanya di prompt berikutnya! 🚀"
+      title: "🚧 Halooo,maaf fitur ini masih dalam proses! 🚀"
     });
   };
 
