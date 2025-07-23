@@ -59,40 +59,40 @@ const DesignCard = ({ design, index }) => {
 const Designs = () => {
   const designsData = [
     {
-      title: "Menu Promosi Kopi",
+      title: "Poster Nobar",
       category: "Desain Promosi",
       image: "/assets/banner1.JPG",
-      imageDesc: "Flyer promotion for a new coffee menu",
+      imageDesc: "",
     },
     {
-      title: "Konten Instagram Story",
-      category: "Media Sosial",
+      title: "Poster komunitas",
+      category: "desain promosi",
       image: "/assets/gowes.png",
-      imageDesc: "Instagram story design for a coffee shop event",
+      imageDesc: "",
     },
     {
-      title: "Desain Logo 'Titik Temu'",
-      category: "Branding",
+      title: "Poster Nobar'",
+      category: "Desain Promosi",
       image: "/assets/banner2.JPG",
-      imageDesc: "Logo design for Titik Temu coffee shop",
+      imageDesc: "",
     },
     {
-      title: "Poster Acara Musik Akustik",
-      category: "Desain Event",
+      title: "Poster Nobar",
+      category: "Desain Promosi",
       image: "/assets/banner3.JPG",
-      imageDesc: "Poster for an acoustic music night at a coffee shop",
+      imageDesc: "",
     },
     {
-      title: "Feed Instagram Estetik",
-      category: "Media Sosial",
+      title: "Poster Nobar",
+      category: "Desain Promosi",
       image: "/assets/banner4.JPG",
-      imageDesc: "Aesthetic Instagram feed layout for a brand",
+      imageDesc: "",
     },
     {
-      title: "Kartu Nama Bisnis",
-      category: "Branding",
+      title: "Poster Nobar",
+      category: "Desain Promosi",
       image: "/assets/banner5.JPG",
-      imageDesc: "Modern business card design",
+      imageDesc: "",
     },
   ];
 
