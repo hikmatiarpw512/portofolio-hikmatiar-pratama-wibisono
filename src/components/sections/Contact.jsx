@@ -78,7 +78,7 @@ const Contact = () => {
   const contactDetails = [
     { icon: Mail, title: 'Email', value: 'hikmatiarpw512@gmail.com' },
     { icon: Phone, title: 'Telepon', value: '+62 813-8920-1764' },
-    { icon: MapPin, title: 'Lokasi', value: 'cileungsi,bogor,indonesia.' },
+    { icon: MapPin, title: 'Lokasi', value: 'Puri Harmoni 1 Residence,Blok c8/23,Desa Dayeuh,Kecamatan Cileungsi,Kabupaten Bogor,Indonesia' },
   ];
 
   return (
