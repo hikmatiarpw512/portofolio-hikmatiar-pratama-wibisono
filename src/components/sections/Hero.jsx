@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Download, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useToastHandler } from '@/hooks/useToastHandler';
-import gambarprofil from '@/assets/1.jpg'; // pastikan file ini ada ya
+
 
 const Hero = () => {
   const handleFeatureClick = useToastHandler();
@@ -95,7 +95,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur-3xl opacity-30 animate-pulse"></div>
             <div className="relative w-full h-full bg-gradient-to-br from-purple-400/20 to-pink-400/20 rounded-full backdrop-blur-sm border border-white/10 flex items-center justify-center overflow-hidden">
               <img
-                src='/assets/1.jpg'
+                src='/assets/profil.jpg'
                 alt="Potret seorang pengusaha muda dan developer"
                 className="object-cover w-full h-full"
               />
