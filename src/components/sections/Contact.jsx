@@ -19,7 +19,6 @@ const ContactInfo = ({ icon: Icon, title, value }) => (
 );
 
 const ContactForm = () => {
-  const handleFeatureClick = useToastHandler();
   return (
     <motion.div
       initial={{ opacity: 0, x: 50 }}
@@ -28,41 +27,48 @@ const ContactForm = () => {
       viewport={{ once: true }}
       className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10"
     >
-      <form className="space-y-6">
+      <form 
+        action="https://formspree.io/f/mnnzpoky"
+        method="POST"
+        className="space-y-6"
+      >
         <div>
           <label className="block text-white font-semibold mb-2">Nama</label>
           <input
             type="text"
+            name="nama"
             className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-purple-400 transition-colors"
             placeholder="Nama Anda"
+            required
           />
         </div>
-        
         <div>
           <label className="block text-white font-semibold mb-2">Email</label>
           <input
             type="email"
+            name="email"
             className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-purple-400 transition-colors"
             placeholder="email@example.com"
+            required
           />
         </div>
-        
         <div>
           <label className="block text-white font-semibold mb-2">Pesan</label>
           <textarea
+            name="pesan"
             rows={4}
             className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-purple-400 transition-colors resize-none"
             placeholder="Ceritakan tentang ide atau kolaborasi..."
+            required
           />
         </div>
-        
-        <Button
-          onClick={handleFeatureClick}
-          type="button"
+
+        <button
+          type="submit"
           className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white py-3 rounded-lg text-lg font-semibold"
         >
           Kirim Pesan
-        </Button>
+        </button>
       </form>
     </motion.div>
   );
