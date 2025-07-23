@@ -102,7 +102,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur-3xl opacity-30 animate-pulse"></div>
             <div className="relative w-full h-full bg-gradient-to-br from-purple-400/20 to-pink-400/20 rounded-full backdrop-blur-sm border border-white/10 flex items-center justify-center overflow-hidden">
               <img
-                src='/assets/profil.jpg'
+                src='/assets/icon.png'
                 alt="Potret seorang pengusaha muda dan developer"
                 className="object-cover w-full h-full"
               />
