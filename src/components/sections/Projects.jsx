@@ -36,13 +36,18 @@ const ProjectCard = ({ project, index }) => {
             </span>
           ))}
         </div>
-        <Button
-          onClick={handleFeatureClick}
-          className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white rounded-full"
-        >
-          <ExternalLink className="mr-2 h-4 w-4" />
-          Lihat Detail
-        </Button>
+       <a 
+  href={Projects.url} 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <Button
+    className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white rounded-full"
+  >
+    <ExternalLink className="mr-2 h-4 w-4" />
+    Lihat Detail
+  </Button>
+</a>
       </div>
     </motion.div>
   );
@@ -57,6 +62,7 @@ const Projects = () => {
       imageDesc: 'Interior of a cozy coffee shop Sinergi Rasa',
       imageUrl: '/assets/warkops.png',
       tech: ['Manajemen Bisnis', 'Layanan Pelanggan', 'Manajemen Stok'],
+      url: 'https://instagram.com/enjoyaman.id'
     },
     {
       title: 'Angkringan "Enjoy Aman"',
@@ -65,6 +71,7 @@ const Projects = () => {
       imageDesc: 'Modern facade of Titik Temu coffee shop',
       imageUrl: '/assets/angks.png',
       tech: ['Ekspansi Bisnis', 'Pemasaran Digital', 'Manajemen Tim'],
+       url: 'https://instagram.com/enjoyaman.id'
     },
     {
       title: 'web e-commerce sederhana',
@@ -72,7 +79,8 @@ const Projects = () => {
       imageAlt: 'Antarmuka aplikasi kasir',
       imageDesc: 'User interface of a web-based POS application',
       imageUrl: '/assets/web.png',
-      tech: ['React', 'JavaScript', 'Frontend', 'UI/UX','mongodb','postman','express.js','node.js'],
+      tech: ['React', 'JavaScript', 'Frontend','mongodb','postman','express.js','node.js'],
+       url: 'https://instagram.com/enjoyaman.id'
     }
   ];
 
