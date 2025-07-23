@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Download, Github, Linkedin, Mail } from 'lucide-react';
+import { Download, Github, Instagram, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useToastHandler } from '@/hooks/useToastHandler';
 
@@ -84,6 +84,9 @@ const Hero = () => {
             </a>
             <a href="mailto:hikmatiarpw512@gmail.com" onClick={handleFeatureClick} className="text-gray-400 hover:text-purple-400 transition-colors">
               <Mail className="h-6 w-6" />
+            </a>
+            <a href="https://www.instagram.com/hikmatiarrpratama/?hl=id" onClick={handleFeatureClick} className="text-gray-400 hover:text-purple-400 transition-colors">
+              <Instagram className="h-6 w-6" />
             </a>
           </motion.div>
         </motion.div>
