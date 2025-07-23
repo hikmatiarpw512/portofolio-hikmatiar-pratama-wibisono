@@ -37,7 +37,7 @@ const ProjectCard = ({ project, index }) => {
           ))}
         </div>
        <a 
-  href={Projects.url} 
+  href={projects.url} 
   target="_blank" 
   rel="noopener noreferrer"
 >
