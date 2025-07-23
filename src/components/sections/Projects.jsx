@@ -62,7 +62,7 @@ const Projects = () => {
       imageDesc: 'Interior of a cozy coffee shop Sinergi Rasa',
       imageUrl: '/assets/warkops.png',
       tech: ['Manajemen Bisnis', 'Layanan Pelanggan', 'Manajemen Stok'],
-      url: 'https://instagram.com/enjoyaman.id'
+      url: 'https://www.instagram.com/enjoyaman.id/?hl=id'
     },
     {
       title: 'Angkringan "Enjoy Aman"',
@@ -71,7 +71,7 @@ const Projects = () => {
       imageDesc: 'Modern facade of Titik Temu coffee shop',
       imageUrl: '/assets/angks.png',
       tech: ['Ekspansi Bisnis', 'Pemasaran Digital', 'Manajemen Tim'],
-       url: 'https://instagram.com/enjoyaman.id'
+       url: 'https://www.instagram.com/enjoyaman.id/?hl=id'
     },
     {
       title: 'web e-commerce sederhana',
@@ -80,7 +80,7 @@ const Projects = () => {
       imageDesc: 'User interface of a web-based POS application',
       imageUrl: '/assets/web.png',
       tech: ['React', 'JavaScript', 'Frontend','mongodb','postman','express.js','node.js'],
-       url: 'https://instagram.com/enjoyaman.id'
+       url: 'hhttps://www.instagram.com/enjoyaman.id/?hl=id'
     }
   ];
 
