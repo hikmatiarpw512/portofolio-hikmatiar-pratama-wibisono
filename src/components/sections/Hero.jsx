@@ -47,13 +47,17 @@ const Hero = () => {
             transition={{ delay: 0.6 }}
             className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
           >
-            <Button 
-              onClick={handleFeatureClick}
-              className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
-            >
-              Hubungi Saya
-            </Button>
-
+           <a 
+  href="https://wa.me/6281389201764" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <Button
+    className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+  >
+    Hubungi Saya
+  </Button>
+</a>
             <a href="/cv-tiar.pdf" download>
               <Button
                 variant="outline"
@@ -72,13 +76,13 @@ const Hero = () => {
             transition={{ delay: 0.8 }}
             className="flex justify-center lg:justify-start space-x-6 mt-8"
           >
-            <a href="#" onClick={handleFeatureClick} className="text-gray-400 hover:text-purple-400 transition-colors">
+            <a href="https://github.com/hikmatiarpw512" onClick={handleFeatureClick} className="text-gray-400 hover:text-purple-400 transition-colors">
               <Github className="h-6 w-6" />
             </a>
-            <a href="#" onClick={handleFeatureClick} className="text-gray-400 hover:text-purple-400 transition-colors">
+            <a href="https://www.linkedin.com/in/hikmatiar-pratama-b96796375/" onClick={handleFeatureClick} className="text-gray-400 hover:text-purple-400 transition-colors">
               <Linkedin className="h-6 w-6" />
             </a>
-            <a href="#" onClick={handleFeatureClick} className="text-gray-400 hover:text-purple-400 transition-colors">
+            <a href="mailto:hikmatiarpw512@gmail.com" onClick={handleFeatureClick} className="text-gray-400 hover:text-purple-400 transition-colors">
               <Mail className="h-6 w-6" />
             </a>
           </motion.div>
