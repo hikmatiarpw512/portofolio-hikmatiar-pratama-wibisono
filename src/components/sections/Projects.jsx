@@ -38,8 +38,7 @@ const ProjectCard = ({ project, index }) => {
         </div>
        <a 
   href={projects.url} 
-  target="_blank" 
-  rel="noopener noreferrer"
+  
 >
   <Button
     className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white rounded-full"
